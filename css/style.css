@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: merriweather;
+}
+
+.top-container{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-color:  #81CACF;
+}
+
+.mountain{
+    display: block;
+    margin: 5% 25%;
+}
+.name{
+    position: absolute;
+    top: 15%;
+    left: 43.5%;
+    font-family: sacramento;
+    font-size:2.53em;
+    color: #66BFBF;
+    /* margin: 30% 0;
+    margin-bottom: 0; */
+}
+
+.pro{
+    font-family: cursive;
+    font-size:1em;
+}
+
+.work {
+    position: absolute;
+    top: 21%;
+    left: 44.5%;
+    font-family: Montserrat;
+    font-size: 2em ;
+    color: #66BFBF;
+}
+.container{
+    margin: 3% 20%;
+}
+.pic{
+    width:20%;
+    height:20%;
+    margin:2% 40%;
+    border-radius: 20px;
+}
+.hi{
+    text-align: center;
+    margin-bottom:10px;
+    color:#11999E;
+}
+
+hr{
+    background-color: white;
+    color:grey;
+    border-width: 10px;
+    /* border-style: dotted none hidden; */
+    border-style: none;
+    border-top-style: dotted;
+    width : 10%;
+    margin-left: 45%;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+span{
+    font-family: sacramento;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    margin-bottom:5px;
+    color:#11999E;
+}
+.touch{
+    font-size:30px;
+}
+.fb{
+    margin-left: 31%;
+    width : 10%;
+    height:10%;
+    display:inline-block;
+    transition: width 0.5s, height 0.5s;
+    }
+    .fb:hover{
+        width:10%;
+        height:10%;
+    }
+.insta{
+    margin-left: 26.5%;
+    width : 10%;
+    height : 10%;
+    display:inline-block;
+    transition: width 0.5s, height 0.5s;
+}
+.insta:hover{
+    width:10.2%;
+    height:10.2%;
+}
+.beep{
+    margin-top:20%;
+}
+
+.h2{
+    font-weight: normal;
+}
+.lorem{
+    text-align: center;
+    line-height: 2;
+    margin:2% 20% auto 20%;
+}
+
+.fb , .insta{
+    width:5%;
+    height:5%;
+}
+.cloud{
+    width:20%;
+    height:20%;
+    /* float : left; */
+    margin-left:40%;
+    margin-bottom:5%;
+    margin-top:4%;
+}
+
+.cloud1{
+    width:20%;
+    height:20%;
+    float:right;
+    margin-top: 10%;;
+}
+
+.lorem30{
+    text-align: center;
+    margin:15% 10% auto 10%;
+    line-height:2;
+    /* clear:right; */
+}
+.pic{
+    transition: width 1s,height 1s;
+}
+.pic:hover{
+     width:21%;
+     height:21%;
+     margin:;
+}
